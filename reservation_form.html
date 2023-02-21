@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+</head>
+<body>
+    <h1>Travel Reservation Form</h1>
+    <h3>* denotes mandatory</h3>
+
+    <form style="line-height: 30px;">
+        <!-- Fullname -->
+        <label for="">Fullname*:</label><br>
+        <input type="text" name="name" placeholder="FirstName LastName"><br>
+        
+        <!-- Email -->
+        <label for="">Email address*:</label><br>
+        <input type="email" name="email" placeholder="Email Address"><br>
+        
+        <!-- Tour Package -->
+        <label for="">Select Tour Package*:</label><br>
+        <select name="packages" id="packages">
+            <option value="Independent">Independent tour</option>
+            <option value="Escorted">Escorted tour</option>
+            <option value="Incentive">Incentive tour</option>
+            <option value="Hosted">Hosted tour</option>
+            <option value="Freedom">Freedom tour</option>
+        </select><br>
+        
+        <!-- Arrival Date -->
+        <label for="">Arrival Date*:</label><br>
+        <input type="date" id="arrival_date" name="arrival_date"><br>
+        
+        <!-- Number of Persons -->
+        <label for="">Number of Persons*:</label><br>
+        <input type="number" name="num_of_persons" placeholder="Num of Persons"><br>
+
+        <!-- Available need -->
+        <label for="">What would you want to avail?*</label><br>
+        <label for="">Boarding</label>
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="Boarding" checked><br>
+        <label for="">Fooding</label>
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="Fooding" checked><br>
+        <label for="">Sight Seeing</label>
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="Sight" checked><br>
+
+        <!-- Discount Coupons -->
+        <label for="">Discount Coupon Code:</label><br>
+        <input type="text" name="discount_code" placeholder="UNKNOWN_TYPE"><br>
+
+        <!-- Terms and Conditions -->
+        <label for="">Terms and Conditions*:</label><br>
+        <input type="radio" id="agree" name="terms" value="agree" checked>
+        <label for="html">I agree</label>
+        <input type="radio" id="disagree" name="terms" value="disagree">
+        <label for="css">I disagree</label><br>
+        
+        <!-- Complete Button -->
+        <input type="submit" value="Complete Reservation">
+    </form>
+</body>
+</html>
