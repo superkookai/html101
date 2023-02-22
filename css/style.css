@@ -1,0 +1,13 @@
+div, p, span{ 
+    font-size: 12pt;
+}
+
+p {
+    font-style: italic;
+}
+
+
+span{
+    background-color: wheat;
+    font-weight: bold;
+}
