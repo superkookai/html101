@@ -13,7 +13,8 @@ span{
 }
 
 #header{
-    background-color: green
+    background-color: green;
+    width: 50%;
 }
 
 #content{
