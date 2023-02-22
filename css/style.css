@@ -11,3 +11,11 @@ span{
     background-color: wheat;
     font-weight: bold;
 }
+
+#header{
+    background-color: green
+}
+
+#content{
+    background-color: yellow;
+}
